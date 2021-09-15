@@ -1,0 +1,40 @@
+// AnimBlueprintGeneratedClass ABP_PoseableMesh_E.ABP_PoseableMesh_E_C
+// Size: 0x11e8 (Inherited: 0x310)
+struct UABP_PoseableMesh_E_C : UTigerCharacterPoseableMeshAnimInstance {
+	struct FPointerToUberGraphFrame UberGraphFrame; // 0x310(0x08)
+	struct FAnimNode_Root AnimGraphNode_Root; // 0x318(0x30)
+	struct FAnimNode_MeshSpaceRefPose AnimGraphNode_MeshRefPose; // 0x348(0x10)
+	struct FAnimNode_ConvertComponentToLocalSpace AnimGraphNode_ComponentToLocalSpace; // 0x358(0x20)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_14; // 0x378(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_13; // 0x480(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_12; // 0x588(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_11; // 0x690(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_10; // 0x798(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_9; // 0x8a0(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_8; // 0x9a8(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_7; // 0xab0(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_6; // 0xbb8(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_5; // 0xcc0(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_4; // 0xdc8(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_3; // 0xed0(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone_2; // 0xfd8(0x108)
+	struct FAnimNode_ModifyBone AnimGraphNode_ModifyBone; // 0x10e0(0x108)
+
+	void AnimGraph(struct FPoseLink AnimGraph); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.AnimGraph // (HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_4E47F9974EA29EAEBB00B9B116123561(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_4E47F9974EA29EAEBB00B9B116123561 // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_40724ABB4B8D5F30229666B070FA123A(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_40724ABB4B8D5F30229666B070FA123A // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_62D227EA4B4D40AE499C99ABAF0718F2(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_62D227EA4B4D40AE499C99ABAF0718F2 // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_12E113BE4713602AB6DCECBF4D8D99EA(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_12E113BE4713602AB6DCECBF4D8D99EA // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_D0BC0E4441CD9A863BF21FBAF1B9A79D(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_D0BC0E4441CD9A863BF21FBAF1B9A79D // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_893D4326487F4D4EA356F18DAB874BFA(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_893D4326487F4D4EA356F18DAB874BFA // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_A200703C4D2D6725F5F35BA62A99EC2C(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_A200703C4D2D6725F5F35BA62A99EC2C // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_991E3FDF45058267ACE92E82BBADDC3C(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_991E3FDF45058267ACE92E82BBADDC3C // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_4AE8D9A447FBD32058DB57B3B30F6CAE(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_4AE8D9A447FBD32058DB57B3B30F6CAE // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_245DA60442E518C875981CA356DB15C8(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_245DA60442E518C875981CA356DB15C8 // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_D75B2F5A4FADDFD78E235DA0E845685C(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_D75B2F5A4FADDFD78E235DA0E845685C // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_287E5BC843F6D5511F3060948E325FD7(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_287E5BC843F6D5511F3060948E325FD7 // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_933A4916478EB562F9D786905FC8EB1B(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_933A4916478EB562F9D786905FC8EB1B // (BlueprintEvent) // @ game+0x16c0340
+	void EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_FFE5488B45919B4FEC36E397D542677D(); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.EvaluateGraphExposedInputs_ExecuteUbergraph_ABP_PoseableMesh_E_AnimGraphNode_ModifyBone_FFE5488B45919B4FEC36E397D542677D // (BlueprintEvent) // @ game+0x16c0340
+	void ExecuteUbergraph_ABP_PoseableMesh_E(int32_t EntryPoint); // Function ABP_PoseableMesh_E.ABP_PoseableMesh_E_C.ExecuteUbergraph_ABP_PoseableMesh_E // (Final|UbergraphFunction) // @ game+0x16c0340
+};
+

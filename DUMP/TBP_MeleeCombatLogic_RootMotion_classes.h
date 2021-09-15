@@ -1,0 +1,13 @@
+// BlueprintGeneratedClass TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C
+// Size: 0x78 (Inherited: 0x78)
+struct UTBP_MeleeCombatLogic_RootMotion_C : UTigerMeleeAimAssistBehavior {
+
+	void DecideConeOrigin(bool ShouldUseCameraAsOrigin, struct FVector InCameraForward, struct FVector OutConeOrigin); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.DecideConeOrigin // (Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void AimAssistAngleToTargetNormalized(struct FTigerMeleeAimAssistCandidate InCandidate, struct FTigerMeleeAimAssistData InAimAssistData, float OutNormalizedAngle); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.AimAssistAngleToTargetNormalized // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	void AimAssistDistanceToTargetNormalized(struct FTigerMeleeAimAssistCandidate InCandidate, struct FTigerMeleeAimAssistData InAimAssistData, float OutNormalizedDistance); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.AimAssistDistanceToTargetNormalized // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	void CandidateScoreMask_Cone(struct FTigerMeleeAimAssistData InAimAssistData, struct FTigerMeleeAimAssistCandidate InCandidate, struct FVector InConeOrigin, struct FVector InConeDirection, float OutScoreMask, float TargetAngleFromCone); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.CandidateScoreMask_Cone // (Public|HasOutParms|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	bool ShouldRotatePlayer(); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.ShouldRotatePlayer // (Event|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure|Const) // @ game+0x16c0340
+	void Debug Draw Arc(struct FVector StartPos, struct FVector Direction, float Angle, float Length, struct FLinearColor Color); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.Debug Draw Arc // (Public|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	void UpdateAimTarget(struct TArray<struct FTigerMeleeAimAssistCandidate> InCandidates, struct FVector InCameraForward, bool bInIsInAir, bool bInIsQuickAttack, struct FTigerMeleeWeaponAttackIdentifier InPreviousAttackIdentifier, float InSecondsSincePreviousAttack, struct ATigerCharacter* OutFinalTarget, struct FTigerMeleeWeaponAttackIdentifier OutAttackIdentifier); // Function TBP_MeleeCombatLogic_RootMotion.TBP_MeleeCombatLogic_RootMotion_C.UpdateAimTarget // (Event|Protected|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+};
+

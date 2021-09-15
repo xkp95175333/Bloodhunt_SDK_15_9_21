@@ -1,0 +1,16 @@
+// BlueprintGeneratedClass TBFL_TypeAndRarity.TBFL_TypeAndRarity_C
+// Size: 0x28 (Inherited: 0x28)
+struct UTBFL_TypeAndRarity_C : UBlueprintFunctionLibrary {
+
+	void GetTextFromLootCategory(enum class ETigerLootCategory LootCategory, struct UObject* __WorldContext, struct FText Text); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetTextFromLootCategory // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure|Const) // @ game+0x16c0340
+	void GetShortTextFromWeaponType(enum class ETigerWeaponType WeaponType, struct UObject* __WorldContext, struct FText ShortType); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetShortTextFromWeaponType // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure|Const) // @ game+0x16c0340
+	void GetTextFromAmmoType(enum class ETigerWeaponAmmoType In Ammo Type, struct UObject* __WorldContext, struct FText Text); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetTextFromAmmoType // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void GetColorTextFromItemType(struct UTigerItemAsset* InItemAsset, struct UObject* __WorldContext, struct FText ColorText); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetColorTextFromItemType // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void GetColorTextFromItemRarity(enum class ETigerItemRarity In Rarity, struct UObject* __WorldContext, struct FText ColorText); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetColorTextFromItemRarity // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void SetRarityMaterialFromWeaponClass(struct UMeshComponent* InMeshComponent, struct UTigerWeapon* InWeaponClass, struct UObject* __WorldContext); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.SetRarityMaterialFromWeaponClass // (Static|Public|BlueprintCallable|BlueprintEvent) // @ game+0x16c0340
+	void GetTextFromItemType(enum class ETigerInventoryItemType In Item Type, bool InGetShortVersion, struct UObject* __WorldContext, struct FText Text); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetTextFromItemType // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void GetTextFromItemRarity(enum class ETigerItemRarity In Rarity, struct UObject* __WorldContext, struct FText Text); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetTextFromItemRarity // (Static|Public|HasOutParms|HasDefaults|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void GetData(struct UObject* __WorldContext, struct UTigerTypeAndRarityData* Data); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetData // (Static|Private|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+	void GetColorFromItemRarity(enum class ETigerItemRarity In Rarity, struct UObject* __WorldContext, struct FLinearColor Color); // Function TBFL_TypeAndRarity.TBFL_TypeAndRarity_C.GetColorFromItemRarity // (Static|Public|HasOutParms|BlueprintCallable|BlueprintEvent|BlueprintPure) // @ game+0x16c0340
+};
+
